@@ -1,0 +1,48 @@
+@media (max-width: 980px) {
+		.portfolio-items {
+			justify-content: space-around;
+		}		
+}
+
+@media (max-width: 780px) {
+					#menu-btn {
+						display: block;
+					}
+					.header-wrap ul {
+						display: none;
+						position: absolute;
+						top: 70px;
+						left: 0;
+						width: 100%;
+						transition: all 0.2s linear;
+					}
+						.header-wrap li {
+							width: 100%;
+						}
+						.header-wrap nav a {
+							display: block;
+							width: 100%;
+							padding: 1em;
+							background-color: #4e6d8c;
+							border-bottom: 1px solid #2c3e50;
+							text-align: center;
+						}
+	.footer-wrap footer {
+		flex-direction: column;
+	}
+			.footer-wrap footer > div {
+				width: 100%;
+				border-bottom: 1px solid #999;
+				margin-bottom: 1em;
+			}
+			.footer-wrap footer > div:last-child {
+				border: none;
+				margin-bottom: 0;
+			}
+				.footer-content-social ul {
+					justify-content: center;
+				}
+						.footer-content-contacts p {
+							margin: 1em auto;
+						}
+}
