@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
 	$.ajax({
 		type: "POST",
-		url: "../php/contact.php",
-		//dataType: "JSON",
+		url: "../portfolio/php/contact.php",
 		success: function(data){
 			
 			var phoneNumberView = document.getElementById("phone-number-view");
