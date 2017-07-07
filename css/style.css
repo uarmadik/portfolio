@@ -128,6 +128,36 @@
 				transition: all .5s linear;
 				background-color: #18BC9C;
 			}
+			.portfolio-items .item-modal {
+				display: none;
+				width: 100%;
+				height: 500px;
+				border: 2px solid #999;
+				background-color: #EC7171;
+				position: fixed;
+				margin: 0;
+				padding: 1em;
+				top: 25%;
+				left: 0;
+				z-index: 1;
+
+				font-size: 2em;
+				color: #fff;
+			}
+				.item-modal_close {
+					display: block;
+					width: 64px;
+					height: 64px;
+					border: 1px solid #999;
+					cursor: pointer;
+					background-image: url(../img/close.png);
+					background-position: center;
+					background-repeat: no-repeat;
+					position: absolute;
+					top: 5px;
+					right: 50px;
+				}
+					
 				.portfolio-items div a {
 					opacity: 0;
 					position: absolute;
@@ -319,7 +349,7 @@
 						.footer-content-social a[title="Facebook"] {
 							background-image: url(../img/facebook-logo.png);
 						}
-						.footer-content-social a[title="Google Plus"] {
+						.footer-content-social a[title="GooglePlus"] {
 							background-image: url(../img/google-plus-social-logotype.png);
 						}
 						.footer-content-social a[title="LinkedIn"] {

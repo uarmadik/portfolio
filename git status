@@ -1,0 +1,37 @@
+[33mcommit a437ff9d33ab4a5364a4e57f604acd85391a2193[m
+Author: uarmadik <uarmadik@gmail.com>
+Date:   Wed Jun 21 00:25:19 2017 +0300
+
+    .delete comment in contact.js
+
+[33mcommit 312aa22f230c3227b870eebd62001ccd4a348577[m
+Author: uarmadik <uarmadik@gmail.com>
+Date:   Wed Jun 21 00:23:00 2017 +0300
+
+    .delete comment in contact.js
+
+[33mcommit 5653d259cbbefa826123e2bebf9da20536e2dd51[m
+Author: uarmadik <uarmadik@gmail.com>
+Date:   Wed Jun 21 00:18:45 2017 +0300
+
+    Revert ".changed URL in AJAX query (for correct script work)"
+    
+    This reverts commit b49e3eb3ba10e489d319af277aa9f33d176e97a6.
+
+[33mcommit b49e3eb3ba10e489d319af277aa9f33d176e97a6[m
+Author: uarmadik <uarmadik@gmail.com>
+Date:   Tue Jun 20 13:00:43 2017 +0300
+
+    .changed URL in AJAX query (for correct script work)
+
+[33mcommit 14125f6ff1c1ad775124a8ee7dcf91a27dc2a683[m
+Author: uarmadik <uarmadik@gmail.com>
+Date:   Tue Jun 20 12:19:27 2017 +0300
+
+    .Сторінка портфоліо, початок
+
+[33mcommit fae5f483dfcb79952b4e90fba1d9b66ae63a70ca[m
+Author: uarmadik <uarmadik@gmail.com>
+Date:   Tue Jun 20 12:16:15 2017 +0300
+
+    first commit

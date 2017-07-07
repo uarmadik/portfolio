@@ -9,7 +9,16 @@ document.addEventListener("DOMContentLoaded", function(){
 
 			var emailView = document.getElementById("email-view");
 			emailView.innerHTML = JSON.parse(data)[1];
-			
+
+			var linkedIn = document.querySelector('.footer-content-social a[title="LinkedIn"]');
+			linkedIn.setAttribute('href', JSON.parse(data)[2]);
+
+			var facebook = document.querySelector('.footer-content-social a[title="Facebook"]');
+			facebook.setAttribute('href', JSON.parse(data)[3]);
+
+			var googlePlus = document.querySelector('.footer-content-social a[title="GooglePlus"]');
+			googlePlus.setAttribute('href', JSON.parse(data)[4]);
+
 		}
 
 	})

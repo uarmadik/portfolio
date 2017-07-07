@@ -27,6 +27,16 @@
 							border-bottom: 1px solid #2c3e50;
 							text-align: center;
 						}
+
+		.about-wrap .about-content {
+			flex-direction: column;
+		}
+			.about-wrap .about-content p {
+				margin: .8em auto;
+				width: 85%;
+				min-width: 250px;
+			}
+
 	.footer-wrap footer {
 		flex-direction: column;
 	}
