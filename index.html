@@ -19,7 +19,7 @@
 		<header>
 			<div class="nav-wrap">
 				<nav>
-					<h1>Start</h1>
+					<h1>Portfolio</h1>
 					<a href="#" id="menu-btn">
 						<span></span>
 						<span></span>
@@ -34,7 +34,7 @@
 			</div>
 			<div class="header-content">
 				<img src="img/profile.png" alt="logo" title="logo">
-				<h1>Start bootstrap</h1>
+				<h1>My portfolio</h1>
 				<div class="line-decor-light">	
 					<span></span>
 					<img src="img/favourites-filled-star-symbol.png" alt="star">
@@ -53,40 +53,77 @@
 				<span></span>
 			</div>
 			<div class="portfolio-items">
-				<div class="item item-1">	
+				<div class="item item-1">
+					<img src="img/portfolio/currency_convertor.jpg" width="100%" alt="convertor currency" title="currency convertor">
+					<p class="homeWork_label">
+						Home work
+					</p>
+					<h1 class="name">
+						Конвертор валюти
+					</h1>
 					<a href="#"></a>				
 				</div>
-				<div class="item-modal modal-1">Modal-1
+				<div class="item-modal modal-1">
+					<div class="modal_content_wrap">
+						
+						<img src="img/portfolio/currency_convertor.jpg" width="100%" alt="convertor currency" title="currency convertor">
+						<p class="homeWork_label">
+							Home work
+						</p>
+						<h1 class="name">
+							Конвертор валюти
+						</h1>
+						<p class="description">
+							Типовий ковертор валюти. Дає можливість обирати валюти конвертвації та суму конвертвації. Курс валюти відповідає актуальному курсу у ПриватБанку (згідно ресурсу finance.ua).
+						</p>
+						<a href="http://userok.zzz.com.ua/test-convertor-ajax/" class="link_in_web" target="_blank">Подивитись на хостингу</a>
+						<a href="https://github.com/uarmadik/home-work/tree/master/test-convertor-ajax" class="link_to_git" target="_blank">Подивитись на GitHub</a>
+					</div>
 					<div class="item-modal_close"></div>
 				</div>
 				<div class="item item-2">	
 					<a href="#"></a>
 				</div>
-				<div class="item-modal modal-2">Modal-2
+				<div class="item-modal modal-2">
+					<div class="modal_content_wrap">
+						Modal-2
+					</div>
 					<div class="item-modal_close"></div>
 				</div>
 				<div class="item item-3">	
 					<a href="#"></a>			
 				</div>
-				<div class="item-modal modal-3">Modal-3
+				<div class="item-modal modal-3">
+					<div class="modal_content_wrap">
+						Modal-3
+					</div>
 					<div class="item-modal_close"></div>
 				</div>
 				<div class="item item-4">	
 					<a href="#"></a>				
 				</div>
-				<div class="item-modal modal-4">Modal-4
+				<div class="item-modal modal-4">
+					<div class="modal_content_wrap">
+						Modal-4
+					</div>
 					<div class="item-modal_close"></div>
 				</div>
 				<div class="item item-5">	
 					<a href="#"></a>		
 				</div>
-				<div class="item-modal modal-5">Modal-5
+				<div class="item-modal modal-5">
+					<div class="modal_content_wrap">
+						Modal-5
+					</div>
 					<div class="item-modal_close"></div>
 				</div>
 				<div class="item item-6">	
 					<a href="#"></a>			
 				</div>
-				<div class="item-modal modal-6">Modal-6
+				<div class="item-modal modal-6">
+					<div class="modal_content_wrap">
+						Modal-6
+					</div>
 					<div class="item-modal_close"></div>
 				</div>
 			</div>
@@ -111,17 +148,17 @@
 		</section>
 	</div>
 	<div class="contact-wrap wrap">
-		<section id="Contact">
+		<section id="contact">
 			<h1>Contact Me</h1>
 			<div class="line-decor-dark">	
 				<span></span>
 				<img src="img/favourites-filled-star-symbol-dark.png" alt="star">
 				<span></span>
 			</div>
-			<form>
+			<form action="php/mail.php" method="POST">
 				<input type="text" name="name" placeholder="Name">
 				<input type="email" name="email" placeholder="Email Address">
-				<input type="tel" name="tel" placeholder="Phone Number">
+				<!--<input type="tel" name="tel" placeholder="Phone Number">-->
 				<textarea name="message" placeholder="Message"></textarea>
 				<input type="submit">
 			</form>

@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
 			span[0].style.transform = "rotate(45deg)";
 			span[0].style.top = "19px";
 					
-			span[1].style.display = "none";
+			span[1].style.width = "0";
 					
 			span[2].style.transform = "rotate(-45deg)";
 			span[2].style.top = "19px";
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function(){
 			span[0].style.transform = "rotate(0deg)";
 			span[0].style.top = "10px";
 					
-			span[1].style.display = "block";
+			span[1].style.width = "30px";
 					
 			span[2].style.transform = "rotate(0deg)";
 			span[2].style.top = "30px";
