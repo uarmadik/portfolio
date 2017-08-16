@@ -27,7 +27,7 @@
 				.header-wrap nav h1 {
 					
 					font-size: 2em;
-					width: 75px;
+					color: wheat;
 				}
 				#menu-btn {
 					display: none;
@@ -422,6 +422,10 @@
 						}
 						.footer-content-social a[title="LinkedIn"] {
 							background-image: url(../img/linkedin-logo.png);
+						}
+						.footer-content-social a[title="GitHub"] {
+							background-image: url(../img/github.png);
+							background-size: 118%;
 						}
 
 						.footer-wrap .footer-content h1 {

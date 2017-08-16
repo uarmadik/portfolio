@@ -1,29 +1,17 @@
 <?php
 
     require_once 'config.php';
+    require_once 'Email.php';
 
-    $to = $config['to'];
-    $subject = $config['subject'];
-    $headers = $config['headers'];
-
-    if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-        echo "Email is not correct!";
-        return false;
+    $mail = new Email($config['to'], $config['subject'], $config['headers']);
+    $user_email = '';
+    if ($mail->validate_email($_POST['email'])){
+        $user_email = $_POST['email'];
     }
-    else if (!$_POST['name'] && !$_POST['message']){
-        echo "There are not a name or a amessage!";
-        return false;
-    }
+    $user_name = $mail->validate_text($_POST['name']);
+    $message_from_user = $mail->validate_text($_POST['message']);
 
-    $user_email = $_POST['email'];
-    $user_name = $_POST['name'];
-    $message = $_POST['message'] . "\n \n From: " . $user_name . ", email: " . $user_email;
-
-
-    if (mail($to, $subject, $message, $headers)){
-        echo "\n" . "Thank you! Message sent!";
-    }
-    else {
-        echo  "\n" . " Error! ";
-        return false;
+    if (($user_email) && ($user_name) && ($message_from_user)){
+        $message = $message_from_user . "\n \n From: " . $user_name . ", email: " . $user_email;
+        $mail->send($message);
     }

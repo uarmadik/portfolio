@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", function(){
 			var googlePlus = document.querySelector('.footer-content-social a[title="GooglePlus"]');
 			googlePlus.setAttribute('href', JSON.parse(data)[4]);
 
-		}
+            var gitHub = document.querySelector('.footer-content-social a[title="GitHub"]');
+            gitHub.setAttribute('href', JSON.parse(data)[5]);
 
+		}
 	})
 })
